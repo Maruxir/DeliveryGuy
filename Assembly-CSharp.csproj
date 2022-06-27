@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scenes\Scripts\car.cs" />
     <Compile Include="Assets\Scenes\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
