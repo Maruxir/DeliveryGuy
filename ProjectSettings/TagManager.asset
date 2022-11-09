@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - wall
+  - dx
+  - sx
+  - fire
+  - heart
+  - food
+  - max
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - wall
+  - obstacle
+  - bar
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: back
+    uniqueID: 3791050879
+    locked: 0
+  - name: Obstacle
+    uniqueID: 3390276333
+    locked: 0
+  - name: plus
+    uniqueID: 807487389
+    locked: 0
+  - name: Character
+    uniqueID: 252866361
+    locked: 0
+  - name: bar
+    uniqueID: 3205456329
+    locked: 0
+  - name: intro
+    uniqueID: 1815116047
+    locked: 0

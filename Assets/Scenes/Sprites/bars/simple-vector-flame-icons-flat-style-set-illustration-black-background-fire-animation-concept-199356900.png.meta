@@ -1,0 +1,456 @@
+fileFormatVersion: 2
+guid: 1f473159331a756498b2ec0ecd87c8ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2980484224725909452
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_0
+  - first:
+      213: 4731429075115164865
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_1
+  - first:
+      213: -2582141789770097228
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_2
+  - first:
+      213: -9150677672619951753
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_3
+  - first:
+      213: 8822909320456706302
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_4
+  - first:
+      213: 7972656927470802478
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_5
+  - first:
+      213: -138524040460728414
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_6
+  - first:
+      213: 2106256275902070287
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_7
+  - first:
+      213: 1296724772349028838
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_8
+  - first:
+      213: 3842493239207386763
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_9
+  - first:
+      213: -6521289392010255995
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_10
+  - first:
+      213: 8174280653664269355
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_11
+  - first:
+      213: 7526764898393446814
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_12
+  - first:
+      213: 592906316036557523
+    second: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_0
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 444
+        width: 110
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf71717c9ecc5920800000000000000
+      internalID: 2980484224725909452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_1
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 443
+        width: 126
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4c136fca969a140800000000000000
+      internalID: 4731429075115164865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 443
+        width: 131
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bddf0519b36a2cd0800000000000000
+      internalID: -2582141789770097228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_3
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 443
+        width: 138
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779b36d9323420180800000000000000
+      internalID: -9150677672619951753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_4
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 444
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef81e4bf745417a70800000000000000
+      internalID: 8822909320456706302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_5
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 443
+        width: 140
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2654fd0c3194ae60800000000000000
+      internalID: 7972656927470802478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_6
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 443
+        width: 137
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a78c7f7e1dd31ef0800000000000000
+      internalID: -138524040460728414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_7
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 389
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e741b6cecea3d10800000000000000
+      internalID: 2106256275902070287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 164
+        width: 118
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e920536f44eef110800000000000000
+      internalID: 1296724772349028838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_9
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 164
+        width: 113
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8edbce1e37435530800000000000000
+      internalID: 3842493239207386763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_10
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 164
+        width: 119
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581a4b769d9bf75a0800000000000000
+      internalID: -6521289392010255995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_11
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 164
+        width: 118
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24b10002f0e07170800000000000000
+      internalID: 8174280653664269355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_12
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 164
+        width: 129
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99de9cebc0747860800000000000000
+      internalID: 7526764898393446814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simple-vector-flame-icons-flat-style-set-illustration-black-background-fire-animation-concept-199356900_13
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 164
+        width: 143
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dac170372d6a3800800000000000000
+      internalID: 592906316036557523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
