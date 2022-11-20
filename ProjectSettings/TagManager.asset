@@ -12,6 +12,7 @@ TagManager:
   - heart
   - food
   - max
+  - bomb
   layers:
   - Default
   - TransparentFX

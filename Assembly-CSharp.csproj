@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\loginScript.cs" />
     <Compile Include="Assets\Scripts\food.cs" />
     <Compile Include="Assets\Scripts\LifeBar.cs" />
+    <Compile Include="Assets\Scripts\spawnBomb.cs" />
     <Compile Include="Assets\Scripts\spawnScript.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Controller1.cs" />

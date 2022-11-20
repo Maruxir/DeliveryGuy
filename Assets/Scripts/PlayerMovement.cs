@@ -81,7 +81,7 @@ public class PlayerMovement : MonoBehaviour
                 gameObject.SetActive(false);
             }
         }
-        else if (fired == true  && (collision.gameObject.tag == "dx" || collision.gameObject.tag == "sx")) 
+        else if (fired == true  && (collision.gameObject.tag == "dx" || collision.gameObject.tag == "sx" || collision.gameObject.tag == "bomb") ) 
         {
             StartCoroutine(destroyEverything(collision.gameObject));
             //collision.gameObject.SetActive(false);
@@ -102,6 +102,14 @@ public class PlayerMovement : MonoBehaviour
         {
             number++;
             text.change(1, number);
+            collision.gameObject.SetActive(false);
+        }
+
+        if (collision.gameObject.tag == "bomb")
+        {
+            number = number -2;
+            text.change(1, number);
+            collision.gameObject.SetActive(false);
         }
     }
 

@@ -367,6 +367,7 @@
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/SceneChanger.cs"
 "Assets/Scripts/SoundManager.cs"
+"Assets/Scripts/spawnBomb.cs"
 "Assets/Scripts/spawnScript.cs"
 "Assets/Scripts/timeBar.cs"
 "Assets/Scripts/timerScript.cs"
