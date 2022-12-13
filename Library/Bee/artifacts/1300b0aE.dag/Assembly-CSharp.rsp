@@ -349,6 +349,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/bike.cs"
+"Assets/Scripts/bombMovement.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/car.cs"
 "Assets/Scripts/Controller1.cs"

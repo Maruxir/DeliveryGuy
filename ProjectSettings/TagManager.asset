@@ -13,6 +13,8 @@ TagManager:
   - food
   - max
   - bomb
+  - bombUp
+  - bombDown
   layers:
   - Default
   - TransparentFX

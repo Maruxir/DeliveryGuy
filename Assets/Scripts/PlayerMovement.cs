@@ -105,7 +105,7 @@ public class PlayerMovement : MonoBehaviour
             collision.gameObject.SetActive(false);
         }
 
-        if (collision.gameObject.tag == "bomb")
+        if (collision.gameObject.tag == "bombUp" || collision.gameObject.tag == "bombDown")
         {
             number = number -2;
             text.change(1, number);
