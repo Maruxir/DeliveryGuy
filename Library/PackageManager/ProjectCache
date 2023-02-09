@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637915897410653163
-    m_Hash: 736291639
+      ticks: 638089714161887389
+    m_Hash: 709692230
   m_LockFileStatus:
     m_FilePath: C:/Users/irene/Desktop/DeliveryGuyRepository/DeliveryGuy/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637915897410749905
-    m_Hash: 2194211456
+      ticks: 638089714161897407
+    m_Hash: 3901464471
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -148,6 +148,7 @@ m_ResolvedPackages:
     - 9.0.0
     - 9.0.1
     - 10.0.0-pre.1
+    - 10.0.0-pre.2
     compatible:
     - 6.0.5
     - 6.0.7
@@ -367,6 +368,7 @@ m_ResolvedPackages:
     - 6.0.4
     - 6.0.5
     - 6.0.6
+    - 6.0.7
     - 7.0.0-pre.3
     - 7.0.0-pre.4
     - 7.0.0
@@ -377,7 +379,9 @@ m_ResolvedPackages:
     - 8.0.0-pre.3
     - 8.0.0
     - 8.0.1
+    - 8.0.2
     - 9.0.0-pre.1
+    - 9.0.0-pre.2
     compatible:
     - 5.0.4
     - 5.0.6
@@ -589,6 +593,7 @@ m_ResolvedPackages:
     - 9.0.0
     - 9.0.1
     - 10.0.0-pre.1
+    - 10.0.0-pre.2
     compatible:
     - 6.0.1
     - 6.0.2
@@ -751,6 +756,7 @@ m_ResolvedPackages:
     - 1.8.1-preview
     - 1.8.2-preview
     - 1.8.3-preview
+    - 1.8.4-preview
     - 2.0.0-pre.1
     - 2.0.0-pre.2
     - 2.0.0
@@ -758,16 +764,20 @@ m_ResolvedPackages:
     - 2.2.1
     - 2.2.2
     - 2.2.3
+    - 2.2.4
     - 3.0.0
     - 3.0.1
     - 3.0.2
+    - 3.0.3
     - 4.0.0-pre.1
+    - 4.0.0-pre.2
     compatible:
     - 2.2.0
     - 2.2.1
     - 2.2.2
     - 2.2.3
-    verified: 2.2.3
+    - 2.2.4
+    verified: 2.2.4
   dependencies:
   - name: com.unity.modules.tilemap
     version: 1.0.0
@@ -903,6 +913,8 @@ m_ResolvedPackages:
     - 2.9.0-pre.6
     - 2.9.1
     - 2.9.2
+    - 2.9.4
+    - 2.9.5
     - 3.0.0-pre.3
     compatible:
     - 2.7.8
@@ -921,6 +933,8 @@ m_ResolvedPackages:
     - 2.9.0-pre.6
     - 2.9.1
     - 2.9.2
+    - 2.9.4
+    - 2.9.5
     verified: 2.7.9
   dependencies: []
   resolvedDependencies: []
@@ -1044,6 +1058,7 @@ m_ResolvedPackages:
     - 1.17.1
     - 1.17.2
     - 1.17.6
+    - 1.17.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -1051,6 +1066,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
+    - 2.0.0
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -1080,6 +1096,7 @@ m_ResolvedPackages:
     - 1.17.1
     - 1.17.2
     - 1.17.6
+    - 1.17.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -1087,6 +1104,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
+    - 2.0.0
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -1194,6 +1212,8 @@ m_ResolvedPackages:
     - 3.0.14
     - 3.0.15
     - 3.0.16
+    - 3.0.17
+    - 3.0.18
     compatible:
     - 3.0.7
     - 3.0.9
@@ -1203,7 +1223,9 @@ m_ResolvedPackages:
     - 3.0.14
     - 3.0.15
     - 3.0.16
-    verified: 3.0.16
+    - 3.0.17
+    - 3.0.18
+    verified: 3.0.18
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -1275,13 +1297,15 @@ m_ResolvedPackages:
     - 2.0.14
     - 2.0.15
     - 2.0.16
+    - 2.0.17
     compatible:
     - 2.0.11
     - 2.0.12
     - 2.0.14
     - 2.0.15
     - 2.0.16
-    verified: 2.0.16
+    - 2.0.17
+    verified: 2.0.17
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -1438,7 +1462,10 @@ m_ResolvedPackages:
     - 1.1.31
     - 1.1.33
     - 1.3.0
+    - 1.3.1
+    - 1.3.2
     - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
@@ -1447,7 +1474,10 @@ m_ResolvedPackages:
     - 1.1.31
     - 1.1.33
     - 1.3.0
+    - 1.3.1
+    - 1.3.2
     - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     verified: 1.1.33
@@ -1613,12 +1643,14 @@ m_ResolvedPackages:
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
     - 4.0.0-pre.1
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -1753,6 +1785,7 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.7.2
+    - 1.8.0
     compatible:
     - 1.5.6
     - 1.5.7
@@ -1769,6 +1802,7 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.7.2
+    - 1.8.0
     verified: 1.5.7
   dependencies:
   - name: com.unity.modules.director
@@ -1924,6 +1958,7 @@ m_ResolvedPackages:
     - 1.7.7
     - 1.7.8
     - 1.8.0-pre.1
+    - 1.8.0
     compatible:
     - 1.6.1
     - 1.7.1
@@ -3845,7 +3880,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: 
+  type: asset
   description: Custom version of the nunit package build to work with Unity. Used
     by the Unity Test Framework.
   status: 4
@@ -3879,7 +3914,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
   hasRegistry: 1
-  hideInEditor: 1
+  hideInEditor: 0
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
@@ -3908,7 +3943,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: library
   description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
     synced to version 12.0.2.
 
@@ -3983,7 +4018,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'This package defines common components used by multiple Game Service
     packages.
 
@@ -4008,6 +4043,10 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
     compatible:
     - 1.0.1
     - 1.1.0-pre.7
@@ -4024,6 +4063,10 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
     verified: 1.0.1
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -4040,7 +4083,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
   hasRegistry: 1
-  hideInEditor: 1
+  hideInEditor: 0
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
@@ -4069,7 +4112,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
   status: 4
@@ -4111,7 +4154,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
   hasRegistry: 1
-  hideInEditor: 1
+  hideInEditor: 0
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
@@ -4140,7 +4183,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: asset
   description: 2D Common is a package that contains shared functionalities that are
     used by most of the other 2D packages.
   status: 4
@@ -4168,6 +4211,7 @@ m_ResolvedPackages:
     - 4.0.4
     - 4.1.0
     - 4.2.0
+    - 4.2.1
     - 5.0.0-pre.1
     - 5.0.0-pre.2
     - 5.0.0
@@ -4179,12 +4223,20 @@ m_ResolvedPackages:
     - 6.0.2
     - 6.0.3
     - 6.0.4
+    - 6.0.5
+    - 6.0.6
     - 7.0.0-pre.3
     - 7.0.0-pre.4
     - 7.0.0
     - 7.0.1
+    - 7.0.2
+    - 7.0.3
     - 8.0.0-pre.1
     - 8.0.0-pre.2
+    - 8.0.0
+    - 8.0.1
+    - 9.0.0-pre.1
+    - 9.0.0-pre.2
     compatible:
     - 5.0.0
     verified: 5.0.0
@@ -4216,7 +4268,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
   hasRegistry: 1
-  hideInEditor: 1
+  hideInEditor: 0
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
@@ -4245,7 +4297,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: asset
   description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier splines)
     in EditorWindows and the SceneView."
   status: 4
@@ -4291,7 +4343,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
   hasRegistry: 1
-  hideInEditor: 1
+  hideInEditor: 0
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
