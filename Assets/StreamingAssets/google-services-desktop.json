@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "1031391834736",
-    "project_id": "deliveryguy-584ee",
-    "storage_bucket": "deliveryguy-584ee.appspot.com"
+    "project_number": "968917824787",
+    "firebase_url": "https://delivery-guy-7f996-default-rtdb.firebaseio.com",
+    "project_id": "delivery-guy-7f996",
+    "storage_bucket": "delivery-guy-7f996.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1031391834736:android:4e118bb48a23adb4207ab5",
+        "mobilesdk_app_id": "1:968917824787:android:892d362b7b14bbc3a9d6e6",
         "android_client_info": {
-          "package_name": "com.game.deliveryGuy"
+          "package_name": "com.deliveryGuy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1031391834736-4dikfp59s06jm3b6cckhhq15f323i8gf.apps.googleusercontent.com",
+          "client_id": "968917824787-djmjkptmu9csjmri57e4ob5jjdbt2lt7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBLUDOnR0MMpkZM6nHLto7bkNhsfoBDZOM"
+          "current_key": "AIzaSyBMzyKnVqCP5XAjjZ9mXu5AzUf_14J7PqE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1031391834736-4dikfp59s06jm3b6cckhhq15f323i8gf.apps.googleusercontent.com",
+              "client_id": "968917824787-djmjkptmu9csjmri57e4ob5jjdbt2lt7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

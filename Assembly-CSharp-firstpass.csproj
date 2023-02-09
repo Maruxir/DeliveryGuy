@@ -69,9 +69,9 @@
     <Compile Include="Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Plugins\Android\FirebaseApp.androidlib\res\values\google-services.xml" />
     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Plugins\Android\FirebaseApp.androidlib\AndroidManifest.xml" />
-    <None Include="Assets\Plugins\Android\FirebaseApp.androidlib\res\values\google-services.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -305,8 +305,8 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Firebase.Analytics">
-      <HintPath>Assets\Firebase\Plugins\Firebase.Analytics.dll</HintPath>
+    <Reference Include="Firebase.Database">
+      <HintPath>Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
     </Reference>
     <Reference Include="Firebase.TaskExtension">
       <HintPath>Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>

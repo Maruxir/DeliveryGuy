@@ -10,6 +10,7 @@ public class bombMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        boxCollider = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -33,7 +34,7 @@ public class bombMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag != "Player")
+         if (collision.gameObject.tag != "Player")
             Physics2D.IgnoreCollision(collision.collider, boxCollider);
     }
 }

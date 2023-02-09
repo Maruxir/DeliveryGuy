@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
-  <string name="gcm_defaultSenderId" translatable="false">1031391834736</string>
-  <string name="google_storage_bucket" translatable="false">deliveryguy-584ee.appspot.com</string>
-  <string name="project_id" translatable="false">deliveryguy-584ee</string>
-  <string name="google_api_key" translatable="false">AIzaSyBLUDOnR0MMpkZM6nHLto7bkNhsfoBDZOM</string>
-  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBLUDOnR0MMpkZM6nHLto7bkNhsfoBDZOM</string>
-  <string name="google_app_id" translatable="false">1:1031391834736:android:4e118bb48a23adb4207ab5</string>
-  <string name="default_web_client_id" translatable="false">1031391834736-4dikfp59s06jm3b6cckhhq15f323i8gf.apps.googleusercontent.com</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="firebase_database_url" translatable="false">https://delivery-guy-7f996-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">968917824787</string>
+  <string name="google_storage_bucket" translatable="false">delivery-guy-7f996.appspot.com</string>
+  <string name="project_id" translatable="false">delivery-guy-7f996</string>
+  <string name="google_api_key" translatable="false">AIzaSyBMzyKnVqCP5XAjjZ9mXu5AzUf_14J7PqE</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBMzyKnVqCP5XAjjZ9mXu5AzUf_14J7PqE</string>
+  <string name="google_app_id" translatable="false">1:968917824787:android:892d362b7b14bbc3a9d6e6</string>
+  <string name="default_web_client_id" translatable="false">968917824787-djmjkptmu9csjmri57e4ob5jjdbt2lt7.apps.googleusercontent.com</string>
 </resources>

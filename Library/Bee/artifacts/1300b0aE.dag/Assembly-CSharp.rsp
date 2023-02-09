@@ -114,9 +114,9 @@
 -define:MOBILE_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/Firebase/Plugins/Firebase.Analytics.dll"
 -r:"Assets/Firebase/Plugins/Firebase.App.dll"
 -r:"Assets/Firebase/Plugins/Firebase.Auth.dll"
+-r:"Assets/Firebase/Plugins/Firebase.Database.dll"
 -r:"Assets/Firebase/Plugins/Firebase.Platform.dll"
 -r:"Assets/Firebase/Plugins/Firebase.TaskExtension.dll"
 -r:"Assets/Firebase/Plugins/Google.MiniJson.dll"
@@ -354,7 +354,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VSSettingsProvider.ref.dll"
-"Assets/Scripts/AuthManager.cs"
 "Assets/Scripts/bike.cs"
 "Assets/Scripts/bombMovement.cs"
 "Assets/Scripts/CameraController.cs"
@@ -363,6 +362,7 @@
 "Assets/Scripts/CounterScript.cs"
 "Assets/Scripts/EndMenu.cs"
 "Assets/Scripts/EndMusicController.cs"
+"Assets/Scripts/firebaseManager.cs"
 "Assets/Scripts/fireBaseSetUp.cs"
 "Assets/Scripts/food.cs"
 "Assets/Scripts/GameCommand.cs"
@@ -375,6 +375,7 @@
 "Assets/Scripts/plane.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/SceneChanger.cs"
+"Assets/Scripts/ScoreElement.cs"
 "Assets/Scripts/SoundManager.cs"
 "Assets/Scripts/spawnBomb.cs"
 "Assets/Scripts/spawnScript.cs"
