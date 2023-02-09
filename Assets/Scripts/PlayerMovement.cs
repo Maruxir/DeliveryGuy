@@ -24,14 +24,22 @@ public class PlayerMovement : MonoBehaviour
     private float jumpSpeed;
     public CounterScript text;
     public int number;
+    public int score;
 
     private void Start()
     {
+        score = 0;
         count = 3;
         jumpSpeed = this.speed;
         number = 0;
         //currentHealt = maxHealt;
         //lifeBar.maxHealt(maxHealt);
+        PlayerPrefs.SetInt("score", 4);
+        int stampa = PlayerPrefs.GetInt("score");
+        Debug.Log("p" + stampa);
+        PlayerPrefs.SetInt("score", 56);
+       stampa = PlayerPrefs.GetInt("score");
+        Debug.Log("p" + stampa);
     }
 
     private void Awake()
@@ -39,11 +47,16 @@ public class PlayerMovement : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+
+        //PlayerPrefs.SetInt("score", 4);
+        //int score = PlayerPrefs.GetInt("score");
+        //Debug.Log(score);
     }
+
 
     private void Update()
     {
-
+        
         // float horizontalInput = Input.GetAxis("Horizontal");
         float horizontalInput = CrossPlatformInputManager.GetAxis("Horizontal");
 
@@ -76,6 +89,8 @@ public class PlayerMovement : MonoBehaviour
         {
             count = count - 1;
             changeLife(count);
+            score = (count * 3) + (number * 9);
+            PlayerPrefs.SetInt("score", score);
             if (count == 0)
             {
                 gameObject.SetActive(false);
@@ -102,6 +117,8 @@ public class PlayerMovement : MonoBehaviour
         {
             number++;
             text.change(1, number);
+            score = (count * 3) + (number * 9);
+            PlayerPrefs.SetInt("score", score);
             collision.gameObject.SetActive(false);
         }
 

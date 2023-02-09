@@ -366,6 +366,7 @@
 "Assets/Scripts/fireBaseSetUp.cs"
 "Assets/Scripts/food.cs"
 "Assets/Scripts/GameCommand.cs"
+"Assets/Scripts/gameController.cs"
 "Assets/Scripts/GuideText.cs"
 "Assets/Scripts/LifeBar.cs"
 "Assets/Scripts/loginScript.cs"

@@ -4771,6 +4771,7 @@ MonoBehaviour:
   lifeBar: {fileID: 1260496437}
   text: {fileID: 295914155}
   number: 0
+  totalScore: 0
 --- !u!95 &579408465
 Animator:
   serializedVersion: 3
@@ -7260,7 +7261,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.1666667, y: 1}
+    m_SensorSize: {x: 1.3333334, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0

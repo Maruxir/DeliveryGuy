@@ -21,6 +21,7 @@ public class firebaseManager : MonoBehaviour
     public GameObject loginPanel;
     public GameObject dbPanel;
 
+
     //Login variables
     [Header("Login")]
     public TMP_InputField emailLoginField;
@@ -59,6 +60,9 @@ public class firebaseManager : MonoBehaviour
                 Debug.LogError("Could not resolve all Firebase dependencies: " + dependencyStatus);
             }
         });
+
+        int stampa = PlayerPrefs.GetInt("score");
+        Debug.Log( stampa);
     }
 
     private void InitializeFirebase()
@@ -68,6 +72,7 @@ public class firebaseManager : MonoBehaviour
         auth = FirebaseAuth.DefaultInstance;
         DBreference = FirebaseDatabase.DefaultInstance.RootReference;
     }
+
     public void ClearLoginFeilds()
     {
         emailLoginField.text = "";
@@ -107,8 +112,8 @@ public class firebaseManager : MonoBehaviour
     {
         StartCoroutine(UpdateUsernameAuth(usernameField.text));
         StartCoroutine(UpdateUsernameDatabase(usernameField.text));
-
-        StartCoroutine(UpdateXp(int.Parse(xpField.text)));
+        int score = PlayerPrefs.GetInt("score");
+        StartCoroutine(UpdateXp(score));
     }
     //Function for the scoreboard button
     public void ScoreboardButton()
@@ -164,12 +169,12 @@ public class firebaseManager : MonoBehaviour
             yield return new WaitForSeconds(2);
 
             usernameField.text = User.DisplayName;
-
-            dbPanel.gameObject.SetActive(true);
-           // UIManager.instance.UserDataScreen(); // Change to user data UI
+            // dbPanel.gameObject.SetActive(true);
+            // UIManager.instance.UserDataScreen(); // Change to user data UI
             confirmLoginText.text = "";
             ClearLoginFeilds();
             ClearRegisterFeilds();
+            SaveDataButton();
         }
     }
 
@@ -363,7 +368,7 @@ public class firebaseManager : MonoBehaviour
             //Data has been retrieved
             DataSnapshot snapshot = DBTask.Result;
 
-            xpField.text = snapshot.Child("xp").Value.ToString();
+           // xpField.text = snapshot.Child("xp").Value.ToString();
 
         }
     }

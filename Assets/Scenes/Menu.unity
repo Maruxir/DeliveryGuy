@@ -10463,6 +10463,7 @@ MonoBehaviour:
   dependencyStatus: 0
   loginPanel: {fileID: 1205615825}
   dbPanel: {fileID: 192787005}
+  gameController: {fileID: 0}
   emailLoginField: {fileID: 523604318}
   passwordLoginField: {fileID: 1386579353}
   warningLoginText: {fileID: 473852650}
