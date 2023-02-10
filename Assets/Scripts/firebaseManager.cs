@@ -19,7 +19,8 @@ public class firebaseManager : MonoBehaviour
     public DatabaseReference DBreference;
 
     public GameObject loginPanel;
-    public GameObject dbPanel;
+    //public GameObject dbPanel;
+    public GameObject scoreboardPanel;
 
 
     //Login variables
@@ -39,8 +40,8 @@ public class firebaseManager : MonoBehaviour
 
     //User Data variables
     [Header("UserData")]
-    public TMP_InputField usernameField;
-    public TMP_InputField xpField;
+    public string usernameField;
+    public int xpField;
     public GameObject scoreElement;
     public Transform scoreboardContent;
 
@@ -110,8 +111,8 @@ public class firebaseManager : MonoBehaviour
     //Function for the save button
     public void SaveDataButton()
     {
-        StartCoroutine(UpdateUsernameAuth(usernameField.text));
-        StartCoroutine(UpdateUsernameDatabase(usernameField.text));
+        StartCoroutine(UpdateUsernameAuth(usernameField));
+        StartCoroutine(UpdateUsernameDatabase(usernameField));
         int score = PlayerPrefs.GetInt("score");
         StartCoroutine(UpdateXp(score));
     }
@@ -119,6 +120,8 @@ public class firebaseManager : MonoBehaviour
     public void ScoreboardButton()
     {
         StartCoroutine(LoadScoreboardData());
+        loginPanel.gameObject.SetActive(false);
+        scoreboardPanel.gameObject.SetActive(true);
     }
 
     private IEnumerator Login(string _email, string _password)
@@ -167,15 +170,22 @@ public class firebaseManager : MonoBehaviour
             StartCoroutine(LoadUserData());
 
             yield return new WaitForSeconds(2);
-
-            usernameField.text = User.DisplayName;
+            usernameField = User.DisplayName;
+ 
             // dbPanel.gameObject.SetActive(true);
             // UIManager.instance.UserDataScreen(); // Change to user data UI
             confirmLoginText.text = "";
             ClearLoginFeilds();
             ClearRegisterFeilds();
             SaveDataButton();
+            ScoreboardButton();
         }
+    }
+
+    public void scoreButton()
+    {
+        loginPanel.gameObject.SetActive(false);
+        scoreboardPanel.gameObject.SetActive(true);
     }
 
     private IEnumerator Register(string _email, string _password, string _username)
@@ -312,40 +322,6 @@ public class firebaseManager : MonoBehaviour
         }
     }
 
-    private IEnumerator UpdateKills(int _kills)
-    {
-        //Set the currently logged in user kills
-        var DBTask = DBreference.Child("users").Child(User.UserId).Child("kills").SetValueAsync(_kills);
-
-        yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
-
-        if (DBTask.Exception != null)
-        {
-            Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
-        }
-        else
-        {
-            //Kills are now updated
-        }
-    }
-
-    private IEnumerator UpdateDeaths(int _deaths)
-    {
-        //Set the currently logged in user deaths
-        var DBTask = DBreference.Child("users").Child(User.UserId).Child("deaths").SetValueAsync(_deaths);
-
-        yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
-
-        if (DBTask.Exception != null)
-        {
-            Debug.LogWarning(message: $"Failed to register task with {DBTask.Exception}");
-        }
-        else
-        {
-            //Deaths are now updated
-        }
-    }
-
     private IEnumerator LoadUserData()
     {
         //Get the currently logged in user data
@@ -360,7 +336,7 @@ public class firebaseManager : MonoBehaviour
         else if (DBTask.Result.Value == null)
         {
             //No data exists yet
-            xpField.text = "0";
+            xpField = 0;
 
         }
         else
@@ -368,7 +344,7 @@ public class firebaseManager : MonoBehaviour
             //Data has been retrieved
             DataSnapshot snapshot = DBTask.Result;
 
-           // xpField.text = snapshot.Child("xp").Value.ToString();
+           //xpField.text = snapshot.Child("xp").Value.ToString();
 
         }
     }
@@ -376,7 +352,7 @@ public class firebaseManager : MonoBehaviour
     private IEnumerator LoadScoreboardData()
     {
         //Get all the users data ordered by kills amount
-        var DBTask = DBreference.Child("users").OrderByChild("kills").GetValueAsync();
+        var DBTask = DBreference.Child("users").OrderByChild("xp").GetValueAsync();
 
         yield return new WaitUntil(predicate: () => DBTask.IsCompleted);
 
@@ -398,16 +374,18 @@ public class firebaseManager : MonoBehaviour
             //Loop through every users UID
             foreach (DataSnapshot childSnapshot in snapshot.Children.Reverse<DataSnapshot>())
             {
+                Debug.Log("username: "+ childSnapshot.Child("username").Value.ToString());
                 string username = childSnapshot.Child("username").Value.ToString();
                 int xp = int.Parse(childSnapshot.Child("xp").Value.ToString());
 
                 //Instantiate new scoreboard elements
                 GameObject scoreboardElement = Instantiate(scoreElement, scoreboardContent);
                 scoreboardElement.GetComponent<ScoreElement>().NewScoreElement(username, xp);
+
             }
 
             //Go to scoareboard screen
-            dbPanel.gameObject.SetActive(true);
+            scoreboardPanel.gameObject.SetActive(true);
         }
     }
 }
