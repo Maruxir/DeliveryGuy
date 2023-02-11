@@ -29,7 +29,7 @@ public class timerScript : MonoBehaviour
                 Debug.Log("Time is UP!");
                 // TimeLeft = 0;
                 TimerOn = false;
-                SceneManager.LoadScene("DeadEnd");
+                SceneManager.LoadScene("time end");
             }
         }
     }

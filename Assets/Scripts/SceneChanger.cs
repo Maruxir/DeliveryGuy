@@ -7,6 +7,8 @@ public class SceneChanger : MonoBehaviour
 {
     public GameObject bike;
     private Animator anim;
+    public GameObject levelsPanel;
+    public GameObject menuPanel;
     public void start()
     {
         anim = bike.GetComponent<Animator>();
@@ -21,11 +23,17 @@ public class SceneChanger : MonoBehaviour
     public IEnumerator bikeGo()
     {
         anim.SetBool("play", true);
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
 
-            SceneManager.LoadScene("SampleScene");
-            MusicMenu.instance.GetComponent<AudioSource>().Pause();
-            MusicControlScript.instance.GetComponent<AudioSource>().Play();
-        
+        levelsPanel.gameObject.SetActive(true);
+        menuPanel.gameObject.SetActive(false);
+
+    }
+
+    public void StartGame() 
+    {
+        SceneManager.LoadScene("SampleScene");
+        MusicMenu.instance.GetComponent<AudioSource>().Pause();
+        MusicControlScript.instance.GetComponent<AudioSource>().Play();
     }
 }

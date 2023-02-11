@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerMovement : MonoBehaviour
@@ -119,6 +120,10 @@ public class PlayerMovement : MonoBehaviour
             text.change(1, number);
             score = (count * 3) + (number * 9);
             PlayerPrefs.SetInt("score", score);
+            if (number == 16)
+            {
+                SceneManager.LoadScene("WinEnd");
+            }
             collision.gameObject.SetActive(false);
         }
 
