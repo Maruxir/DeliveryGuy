@@ -86,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
                 gameObject.SetActive(false);
             }
         }
-        else if (fired == true  && (collision.gameObject.tag == "dx" || collision.gameObject.tag == "sx" || collision.gameObject.tag == "bomb") ) 
+        else if (fired == true  && (collision.gameObject.tag == "dx" || collision.gameObject.tag == "sx" || collision.gameObject.tag == "bombUp" || collision.gameObject.tag == "bombDown")) 
         {
             StartCoroutine(destroyEverything(collision.gameObject));
         }
@@ -118,10 +118,12 @@ public class PlayerMovement : MonoBehaviour
             collision.gameObject.SetActive(false);
         }
 
-        if (collision.gameObject.tag == "bombUp" || collision.gameObject.tag == "bombDown" && fired == false)
+        if ((collision.gameObject.tag == "bombUp" || collision.gameObject.tag == "bombDown") && fired == false)
         {
             number = number -2;
             if (number < 0) { number = 0; }
+            count = count - 1;
+            changeLife(count);
             text.change(1, number);
             collision.gameObject.SetActive(false);
         }
@@ -130,17 +132,28 @@ public class PlayerMovement : MonoBehaviour
     public IEnumerator destroyEverything(GameObject collision)
     {
         collision.SetActive(false);
-        fire.gameObject.SetActive(true);
+       // fire.gameObject.SetActive(true);
         yield return new WaitForSeconds(10);
         collision.SetActive(true);
-        fire.gameObject.SetActive(false);
+       // fire.gameObject.SetActive(false);
     }
+
+    public IEnumerator foodRecreate(GameObject collision)
+    {
+        collision.SetActive(false);
+        yield return new WaitForSeconds(15);
+        collision.SetActive(true);
+    }
+
+
     public IEnumerator onFire() 
     {
         fired = true;
+        fire.gameObject.SetActive(true);
         this.speed = 80;
         yield return new WaitForSeconds(10);
         this.speed = 15;
+        fire.gameObject.SetActive(false);
         fired = false;
     }
 
@@ -151,6 +164,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void changeLife(int count) 
     {
+        if (count > 3) { count = 3;  }
         lifeBar.life(count);
     }
 

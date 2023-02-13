@@ -28,6 +28,9 @@ public class timerScript : MonoBehaviour
             {
                 Debug.Log("Time is UP!");
                 TimerOn = false;
+                MusicPlayer.instance.GetComponent<AudioSource>().Pause();
+                if (EndMusic.instance != null)
+                    EndMusic.instance.GetComponent<AudioSource>().Play();
                 SceneManager.LoadScene("time end");
             }
         }
