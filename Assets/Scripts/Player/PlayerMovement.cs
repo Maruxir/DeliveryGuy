@@ -26,13 +26,12 @@ public class PlayerMovement : MonoBehaviour
     public CounterScript text;
     public int number;
     public int score;
-
     private void Start()
     {
         score = 0;
         count = 3;
         jumpSpeed = this.speed;
-        number = 14;
+        number = 0;
         PlayerPrefs.SetInt("score", 4);
         int stampa = PlayerPrefs.GetInt("score");
         Debug.Log("p" + stampa);
@@ -71,7 +70,6 @@ public class PlayerMovement : MonoBehaviour
     private void jump() 
     {
         body.velocity = new Vector2(body.velocity.x, jumpSpeed);
-       // anim.SetBool("jump", isGrounded());
         anim.SetTrigger("jump");
     }
 
@@ -110,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
             text.change(1, number);
             score = (count * 3) + (number * 9);
             PlayerPrefs.SetInt("score", score);
-            if (number == 16)
+            if (number == 14)
             {
                 SceneManager.LoadScene("WinEnd");
                 MusicPlayer.instance.GetComponent<AudioSource>().Pause();
@@ -120,9 +118,10 @@ public class PlayerMovement : MonoBehaviour
             collision.gameObject.SetActive(false);
         }
 
-        if (collision.gameObject.tag == "bombUp" || collision.gameObject.tag == "bombDown")
+        if (collision.gameObject.tag == "bombUp" || collision.gameObject.tag == "bombDown" && fired == false)
         {
             number = number -2;
+            if (number < 0) { number = 0; }
             text.change(1, number);
             collision.gameObject.SetActive(false);
         }

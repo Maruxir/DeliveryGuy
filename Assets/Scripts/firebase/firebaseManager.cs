@@ -65,6 +65,7 @@ public class firebaseManager : MonoBehaviour
         Debug.Log( stampa);
     }
 
+
     private void InitializeFirebase()
     {
         Debug.Log("Setting up Firebase Auth");
@@ -110,17 +111,11 @@ public class firebaseManager : MonoBehaviour
     //Function for the save button
     public void SaveDataButton()
     {
-
-        var DBTask = DBreference.Child("users").Child(User.UserId).Child("xp").GetValueAsync();
-        int xpValue = (int)(long)DBTask.Result.Value;
-        int newXp = PlayerPrefs.GetInt("score");
-        if (newXp > xpValue)
-        {
+        int xp = PlayerPrefs.GetInt("score");
+   
             StartCoroutine(UpdateUsernameAuth(usernameField));
             StartCoroutine(UpdateUsernameDatabase(usernameField));
-            // int score = PlayerPrefs.GetInt("score");
-            StartCoroutine(UpdateXp(newXp));
-        }
+            StartCoroutine(UpdateXp(xp));
     }
     //Function for the scoreboard button
     public void ScoreboardButton()

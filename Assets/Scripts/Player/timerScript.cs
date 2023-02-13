@@ -27,7 +27,6 @@ public class timerScript : MonoBehaviour
             else
             {
                 Debug.Log("Time is UP!");
-                // TimeLeft = 0;
                 TimerOn = false;
                 SceneManager.LoadScene("time end");
             }

@@ -34,8 +34,8 @@ public class bombMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider == null) { return; }
-        else if (collision.gameObject.tag == "Player")
+        //if (collision.collider == null) { return; }
+        if (collision.gameObject.tag != "Player"  && collision.collider!= null)
         {
             Physics2D.IgnoreCollision(collision.collider, boxCollider);
         }

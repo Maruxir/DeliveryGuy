@@ -99,8 +99,16 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:CROSS_PLATFORM_INPUT
+-define:MOBILE_INPUT
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Firebase/Plugins/Firebase.App.dll"
+-r:"Assets/Firebase/Plugins/Firebase.Auth.dll"
+-r:"Assets/Firebase/Plugins/Firebase.Database.dll"
+-r:"Assets/Firebase/Plugins/Firebase.Platform.dll"
+-r:"Assets/Firebase/Plugins/Firebase.TaskExtension.dll"
+-r:"Assets/Firebase/Plugins/Google.MiniJson.dll"
 -r:"C:/Program Files/Unity install/2021.1.27f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
 -r:"C:/Program Files/Unity install/2021.1.27f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
 -r:"C:/Program Files/Unity install/2021.1.27f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
@@ -278,9 +286,9 @@
 -r:"C:/Program Files/Unity install/2021.1.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.VRModule.dll"
 -r:"C:/Program Files/Unity install/2021.1.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.WindModule.dll"
 -r:"C:/Program Files/Unity install/2021.1.27f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.XRModule.dll"
--r:"C:/Users/irene/Desktop/Life/Life/Library/PackageCache/com.unity.cinemachine@2.7.9/Runtime/ThirdParty/clipper_library.dll"
--r:"C:/Users/irene/Desktop/Life/Life/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll"
--r:"C:/Users/irene/Desktop/Life/Life/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/irene/Desktop/gitlfs repo/DeliveryGuy/Library/PackageCache/com.unity.cinemachine@2.7.9/Runtime/ThirdParty/clipper_library.dll"
+-r:"C:/Users/irene/Desktop/gitlfs repo/DeliveryGuy/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"C:/Users/irene/Desktop/gitlfs repo/DeliveryGuy/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
 "Library/PackageCache/com.unity.2d.tilemap.extras@2.2.0/Runtime/GridInformation/GridInformation.cs"
 "Library/PackageCache/com.unity.2d.tilemap.extras@2.2.0/Runtime/Tiles/AnimatedTile/AnimatedTile.cs"
