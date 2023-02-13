@@ -48,7 +48,7 @@ In the main menu, you can find:
 ### Settings
 In the settings, you can:
 
-- Select your **preferred hand** for play.
+- Select your **dominant hand** for play.
 - **Mute/unmute** the sound.
 
 ### Scoreboard
