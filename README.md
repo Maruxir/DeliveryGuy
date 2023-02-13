@@ -1,7 +1,6 @@
 # DeliveryGuy
 
-
-![titolo(1).png](\Assets\Scenes\Sprites\bottoms|titolo(1).png)
+![title](https://github.com/Maruxir/DeliveryGuy/blob/gitlfs/Assets/Scenes/Sprites/bottoms/titolo(1).png "Title")
 
 *DeliveryGuy* is a **2D game** developed using **Unity** for the university course "Mobile Computing".
 
@@ -17,7 +16,7 @@ The game is about a delivery guy wich has to complete his working shift:
 - he can *lose 2* of the *food* he has taken by colliding with a **bomb**.
 - he rides a **bike**.
 
-![city](\city.jpeg)
+![city](https://github.com/Maruxir/DeliveryGuy/blob/gitlfs/city.jpeg)
 
 ## GameEnd
 You can lose this game in two ways: 
@@ -35,7 +34,7 @@ You can pause the game at any moment and choose to:
 - **Restart** the game.
 - **Mute/unmute** the sound.
 
-![pause](\pause.jpeg)
+![pause](https://github.com/Maruxir/DeliveryGuy/blob/gitlfs/pause.jpeg)
 
 ## MainMenu
 In the main menu, you can find:
@@ -44,7 +43,7 @@ In the main menu, you can find:
 - *Settings*.
 - A *guide*.
 
-![mainMenu](\mainMenu.jpeg)
+![mainMenu](https://github.com/Maruxir/DeliveryGuy/blob/gitlfs/mainMenu.jpeg)
 
 ### Settings
 In the settings, you can:
@@ -56,8 +55,8 @@ In the settings, you can:
 - To view the scoreboard, you need to **sign in**. 
 - If you don't have an account yet, you can **create** one.
 
-![login](\login.jpeg)
-![scoreboard](\scoreBoard.jpeg)
+![login](https://github.com/Maruxir/DeliveryGuy/blob/gitlfs/login.jpeg)
+![scoreboard](https://github.com/Maruxir/DeliveryGuy/blob/gitlfs/scoreBoard.jpeg)
 
 
 ## Plugins
