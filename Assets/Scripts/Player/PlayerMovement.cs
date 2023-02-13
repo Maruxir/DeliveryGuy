@@ -116,6 +116,7 @@ public class PlayerMovement : MonoBehaviour
                     WinMusic.instance.GetComponent<AudioSource>().Play();
             }
             collision.gameObject.SetActive(false);
+             StartCoroutine(foodRecreate(collision.gameObject));
         }
 
         if ((collision.gameObject.tag == "bombUp" || collision.gameObject.tag == "bombDown") && fired == false)
